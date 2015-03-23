@@ -1,0 +1,43 @@
+body {
+    background-color: #f4ffd6;
+}
+
+nav ul {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+    display: inline-table;
+    background-color: #dff79e;
+    position: absolute;
+}
+
+nav > ul > li {
+    display: inline-table;
+}
+
+li.pop:hover > ul {
+    display: block;
+}
+
+li {
+    padding: 10px;
+    background-color: #dff79e;
+}
+
+a {
+    padding: 10px;
+    text-decoration: none;
+    color: red;
+}
+
+li:hover > a {
+    color: yellow;
+}
+
+nav ul ul {
+    display: none;
+}
+
+nav ul li:hover > ul {
+    display: inline-table;
+}
